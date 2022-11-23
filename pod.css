@@ -1,33 +1,5 @@
-:root {
-  --dew-shift: background 28ms;
-  --dew-slick: floralwhite;
-  --dew-slime: #111;
-  --dew-solar: thistle;
-  --dew-lunar: #303;
-}
-
-.dew-sun {
-  --dew-solar: pink;
-  --dew-lunar: #303;
-}
-
-.dew-air {
-  --dew-solar: #bae4ea;
-  --dew-lunar: #303;
-}
-
-.dew-h20 {
-  --dew-solar: #bae;
-  --dew-lunar: #303;
-}
-
-.dew-mud {
-  --dew-solar: peru;
-  --dew-lunar: #303;
-}
-
-:link {
-  box-shadow: 0 0 1em 1ex purple;
+:focus {
+  outline: thick double;
 }
 
 html {
@@ -60,6 +32,10 @@ html {
 
 body {
   margin: 0;
+}
+
+sup {
+  font-size: 1.61em;
 }
 
 .voz {
